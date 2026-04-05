@@ -33,8 +33,15 @@ import neuroprobe
 ```
 
 ## WEIGHTS 
+
+### Option 1 : Via Google Drive
+[gdrive link](https://drive.google.com/drive/folders/1Wmv36jifjE0Jj6noGOFFsqRzK-4xnj1b?usp=share_link)
+
+### Option 2: Via lfs 
 - pretrained weights for iEEG downstream tasks: ``` ./weights/ieeg_pretrained_weights.pt```
 - pretrained weights for EEG downstream tasks: ``` ./weights/i_eeg_pretrained_weights.pt```
+
+
 
 
 ## NOTE
