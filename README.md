@@ -1,6 +1,10 @@
 # DIVER-1
 EPHYS FOUNDATION MODEL 
 
+(Organized by @juliaaayun66)
+
+Paper arxiv [link](https://arxiv.org/pdf/2512.19097)
+
 ## SETUP
 - Before finetuning, set the following requirements. 
 ```bash
@@ -31,3 +35,8 @@ import neuroprobe
 ## WEIGHTS 
 - pretrained weights for iEEG downstream tasks: ``` ./weights/ieeg_pretrained_weights.pt```
 - pretrained weights for EEG downstream tasks: ``` ./weights/i_eeg_pretrained_weights.pt```
+
+
+## NOTE : 
+- If you would like 1s iEEG weights please raise an issue
+- Also note that when using the models, please use the `mup` mode such that the attention to be scaled by `d_model` not its square root.
