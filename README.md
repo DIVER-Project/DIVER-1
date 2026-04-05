@@ -37,6 +37,6 @@ import neuroprobe
 - pretrained weights for EEG downstream tasks: ``` ./weights/i_eeg_pretrained_weights.pt```
 
 
-## NOTE : 
+## NOTE
 - If you would like 1s iEEG weights please raise an issue
 - Also note that when using the models, please use the `mup` mode such that the attention to be scaled by `d_model` not its square root.
